@@ -52,7 +52,7 @@ namespace SpeedGPS
             // se raliza la operacion matematica para comvertir a velocidad en Km/h (Distancia/Tiempo/1000.0)
             DL.Text = ((GetDistance(fromPosi, toPosi) / time) / 1000.0).ToString() + "km/h";
 
-            //una vez mostrado el resultado de la velocidad la posicion actual pasa a ser la antigua
+            //una vez mostrado el resultado de la velocidad la posicion actual pasa a ser la antigua test
             fromPosi = toPosi;
             activity.IsRunning = false;
             activity.IsVisible = false;
